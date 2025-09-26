@@ -26,7 +26,7 @@ const Landing = () => {
             НИЙСЛЭЛИЙН ЧИНГЭЛТЭЙ ДҮҮРЭГ
           </h1>
           <p className="text-gray-300 text-base md:text-lg mt-1">
-            АЛБАН ЁСНЫ ЦАХИМ ХУУДАС
+            ТЕЛЕ КАМЕРЫН ХЯНАЛТЫН ДЭД ТӨВ
           </p>
         </div>
 
@@ -42,8 +42,8 @@ const Landing = () => {
       </div>
 
       <div className="z-10 space-y-1 text-sm text-gray-400 mt-12">
-        <p>Утас: 7777-1992</p>
-        <p>Мэйл хаяг: info@chingeltei.gov.mn</p>
+        <p>Утас: 76000909</p>
+        <p>Мэйл хаяг: telecamera@chingeltei.gov.mn</p>
       </div>
     </div>
   );
