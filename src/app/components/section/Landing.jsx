@@ -4,19 +4,19 @@ import Threads from "../background/Threads";
 
 const Landing = () => {
   const menuItems = [
-    // { label: "Бидний тухай", href: "/about-us" },
+    { label: "Эхлэл", href: "/home" },
     { label: "Мэдээ", href: "/news" },
     { label: "Статистик", href: "/statistics" },
     { label: "Ил тод байдал", href: "/transparency" },
     { label: "Хууль, эрх зүй", href: "/law" },
+
   ];
 
   return (
     <div className="w-full h-screen relative overflow-hidden flex flex-col items-center justify-between py-24 text-center bg-gray-900 text-white">
-      {/* Background effect */}
-      {/* <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0">
         <Threads amplitude={1} distance={0} enableMouseInteraction={true} />
-      </div> */}
+      </div>
 
       <div className="z-10 flex flex-col items-center gap-8">
         <div className="w-[200px] h-[200px] rounded-full bg-black/70 backdrop-blur-xl border-2 border-gray-600 shadow-lg" />
